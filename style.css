@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main.main_wrapper {
+    padding: 16px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first_div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.first_div h1 {
+    font-size: 35px;
+    color: hsl(300, 43%, 22%);
+    max-width: 300px;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.first_div p {
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    /* max-width: 400px; */
+    margin: 0 auto;
+}
+
+.second_div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div.rating {
+    background-color: hsl(300, 24%, 96%);
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.image_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.rating p {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+
+
+/* second section */
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div.buyer{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.buyer p{
+    color: white;
+}
+
+div.info{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+div.info img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+div.info p.name {
+    font-size: 15px;
+}
+
+div.info p.role {
+    color: hsl(333, 80%, 67%);
+    font-size: 12px;
+}
